@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Avaliar mentoria</title>
+
+    <link rel="stylesheet" href="evaluation.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Staatliches&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav>
+        <a href="home.html"><img src="images/mentorship.png" alt=""></a>
+        <ul>
+            <a href="home.html"><li>Início</li></a>
+            <a href="schedule.html"><li>Agendar</li></a>
+            <a class="selected" href="evaluation.html"><li>Avaliar</li></a>
+        </ul>
+    </nav>
+    <div class="page">
+        <header>
+            <h1>AVALIE A SUA MENTORIA</h1>
+            <p>Chegou a hora de avaliar o seu mentor. Bora lá?</p>
+            <img src="images/stars.svg" alt="Balão de chat na cor salmão com 3 estrelas brancas e 2 estrelas cinza escuro">
+        </header>
+        <div class="header-form">
+            <h2>INFORMAÇÕES PESSOAIS</h2>
+        </div>
+        <form id="evaluation">
+            <fieldset>
+                <div class="col-2">
+                    <div class="input-wrapper">
+                        <label for="evaluation-name">Nome</label>
+                        <input type="text" id="evaluation-name" required/>
+                    </div>
+                    <div class="input-wrapper">
+                        <label for="evaluation-surname">Sobrenome</label>
+                        <input type="text" id="evaluation-surname" required/>
+                    </div>
+                </div>
+                <div class="input-wrapper">
+                    <label for="evaluation-email">Email<span>(digite um email válido)</span></label>
+                    <input type="email" id="evaluation-email" required/>
+                </div>
+            </fieldset>
+
+            <fieldset>
+                <legend>INFORMAÇÕES DO MENTOR</legend>
+                    <div class="input-wrapper">
+                        <label for="evaluation-name">Selecione quem foi o seu mentor</label>
+                        <select id="mentor">
+                                <option value="Mayk Brito">Mayk</option>
+                                <option value="Diego">Diego</option>
+                                <option value="Ana">Ana</option>
+                                <option value="João">João</option>
+                        </select>
+                    </div>
+                    <div class="input-wrapper">
+                        <label for="evaluation-surname">Feedback sobre o mentor</label>
+                        <textarea id="feedback"></textarea>
+                    </div>
+                <div class="checkbox-wrapper">
+                    <input class="checkbox" type="checkbox" id="evaluation-valid">
+                    <label for="evaluation-valid">Todas as minha dúvidas foram esclarecidas durante a mentoria</label>
+                </div>
+            </fieldset>
+
+            <fieldset>
+                <legend>AGENDANDO PRÓXIMA MENTORIA</legend>
+                <div class="col-3">
+                    <div class="input-wrapper">
+                        <label for="evaluation-date">Data</label>
+                        <input type="date" id="evaluation-date" required/>
+                    </div>
+                    <div class="input-wrapper">
+                        <label for="evaluation-begin">Das</label>
+                        <input type="time" id="evaluation-begin" required/>
+                    </div>
+                    <div class="input-wrapper">
+                        <label for="evaluation-end">Até</label>
+                        <input type="time" id="evaluation-end" required/>
+                    </div>
+                </div>
+            </fieldset>
+            <input class="button" type="submit" value="SALVAR" form="evaluation">
+        </form>
+    </div>
+</body>
+</html>
