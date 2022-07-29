@@ -5,13 +5,13 @@
 }
 
 body{
-    background-color: #E5E5E5;
+    background-color: #9ECDCC;
     font-family: 'Poppins', sans-serif;
 }
 
 body::before{
     content: '';
-    background-color: #293241;
+    background-color: #1e5e64;
     position: absolute;
     height: 436px;
     width: 100%;
@@ -28,7 +28,7 @@ nav{
     height: 80px;
     width: 100%;
     padding: 10px 100px;
-    background-color: rgba(0, 0, 0, 0.603);
+    background-color: rgba(0, 0, 0, 0.4);
 }
 
 nav a{
@@ -184,14 +184,14 @@ form fieldset .input-wrapper input{
 }
 
 footer{
-    background-color: #535971;
+    background-color: #1e5e64;
     border-radius: 0 0 8px 8px;
     padding: 52px 71px;
 }
 
 footer input{
     padding: 15px 279px;
-    background: #FF5374;
+    background: #F57D4E;
     font-family: 'Staatliches';
     font-size: 20px;
     line-height: 26px;
@@ -202,5 +202,5 @@ footer input{
 }
 
 footer input:hover{
-    background: #ce415e;
+    background: #c4633d;
 }

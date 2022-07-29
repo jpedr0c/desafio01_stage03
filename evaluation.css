@@ -5,7 +5,7 @@
 }
 
 body{
-    background-color: #E5E5E5;
+    background-color: #9ECDCC;
     font-family: 'Poppins', sans-serif;
 }
 
@@ -15,7 +15,7 @@ body::before{
     width: 100%;
     height: 465px;
     z-index: -1;
-    background-color: #293241;
+    background-color: #1E5E64;
 }
 
 nav{
@@ -28,7 +28,7 @@ nav{
     height: 80px;
     width: 100%;
     padding: 10px 100px;
-    background-color: rgba(0, 0, 0, 0.603);
+    background-color: rgba(0, 0, 0, 0.4);
 }
 
 nav a{
@@ -90,7 +90,7 @@ header img{
 
 .header-form{
     padding: 50px 275px;
-    background-color: #F67669;
+    background-color: #F57D4E;
     border-radius: 20px 20px 0 0;
 }
 
@@ -251,12 +251,12 @@ form input.button{
     color: #FFFFFF;
     padding: 12.5px 286px;
     margin-top: 64px;
-    background: #F67669;
+    background: #F57D4E;
     border: none;
     border-radius: 8px;
     transition: 0.5s;
 }
 
 form input.button:hover{
-    background: #c75e52;
+    background: #c4633d;
 }
