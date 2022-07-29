@@ -11,7 +11,7 @@ body{
 
 body::before{
     content: '';
-    background-color: #535971;
+    background-color: #293241;
     position: absolute;
     height: 436px;
     width: 100%;

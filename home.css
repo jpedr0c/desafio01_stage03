@@ -5,7 +5,7 @@
 }
 
 body{
-    background-color: #2C2B3D;
+    background-color: #293241;
     font-family: 'Poppins', sans-serif;
     font-weight: 500;
     margin: 0;
@@ -61,37 +61,16 @@ nav .selected{
     text-align: center;
 }
 
-nav{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-nav ul{
-    list-style: none;
-    display: flex;
-    gap: 64px;
-
-}
-
-a{
-    text-decoration: none;
-}
-
-nav ul li a{
-    color: #E5E5E5;
-}
-
 main{
     display: flex;
     justify-content: space-between;
-    margin-top: 101px;
+    align-items: center;
+    margin-top: 130px;
 }
 
 main img{
     width: 401px;
     height: 283px;
-
 }
 
 main section{
@@ -134,7 +113,7 @@ footer{
 footer .line{
     width: 568px;
     height: 0px;
-    margin: 167px auto 27px;
+    margin: 140px auto 27px;
     border: 1px solid #00BFA6;
 }
 
